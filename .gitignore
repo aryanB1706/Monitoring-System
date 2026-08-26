@@ -1,0 +1,29 @@
+# Build output
+build/
+build-*/
+cmake-build-*/
+
+# CMake leftovers at source root
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+
+# Compiled objects / binaries
+*.o
+*.a
+*.so
+
+# Test / benchmark artifacts
+Testing/
+*.log
+
+# Editor / OS noise
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+
+# Temp detector configs
+/tmp/
